@@ -190,6 +190,57 @@ footer p{
 }
 
 /*------------------nosotros------------*/
+.banner2 {
+    width: 100%;
+    position: relative;
+    height: 450px;
+    background: url('../img/banner2.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    overflow: hidden;
+    clear: both;
+}
 
-
+/*------------------servicios--------------*/
+.banner3 {
+    width: 100%;
+    position: relative;
+    height: 450px;
+    background: url('../img/banner3.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    overflow: hidden;
+    clear: both;
+}
 /*--------------------contacto-----------------*/
+.banner4 {
+    width: 100%;
+    position: relative;
+    height: 450px;
+    background: url('../img/banner4.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    overflow: hidden;
+    clear: both;
+}
+#contact{
+    background:#333333;
+    color:#f4f4f4;
+    padding-bottom:80px;
+}
+
+textarea.form-control{
+    height:100px;
+}
+.mapa{
+    width: 100%;
+}
+.mapa iframe{
+    width: 100%;
+}

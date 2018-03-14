@@ -1,128 +1,104 @@
 <!DOCTYPE html>
 <?php include 'encabezado2.php' ?>
 <body>
+
+<header>
+    <div class=" container uno">
+        <p class="col-md-6"><i class="fas fa-map-marker-alt"></i> C. 23 #64 por 12 Col. Chuburna de Hidalgo, Mérida, Yucatán. CP. 97205.</p>
+        <p class="col-md-3"><i class="far fa-clock"></i> Lunes a Viernes de 9 am a 6 pm</p>
+        <p class="col-md-3"><i class="far fa-envelope"></i> info@adminciudadblanca.com</p>
+    </div>
+    <div class="container dos">
+        <p class="text-right">Redes sociales</p>
+        <p class="iconosi text-right">
+            <i class="fab fa-facebook-f"></i> &nbsp;
+            <i class="fab fa-google-plus-g"></i> &nbsp;
+            <i class="fab fa-twitter"></i> &nbsp;
+            <i class="fab fa-linkedin-in"></i>
+        </p>
+    </div>
+    <hr>
+</header>
+
+<div class="menu">
+    <figure class="logo pull-left">
+        <img src="../img/cd-blanca.png" alt="CIUDAD BLANCA" class="img-responsive">
+    </figure>
+    <nav class="pull-right">
+        <ul>
+            <a class="selector" href="../index.php">INICIO</a>
+            <a class="selector" href="nosotros.php">NOSOTROS</a>
+            <a class="selector" href="servicios.php">SERVICIOS</a>
+            <a class="selector" id="select" href="contacto.php">CONTACTO</a>
+        </ul>
+    </nav>
+</div>
+
 <div class="banner4">
-	<div class="fondo">
-		<nav class="pull-left">
-			<ul>
-				<a class="selector" href="../index.php">INICIO</a>
-				<a class="selector" href="nosotros.php">NOSOTROS</a>
-				<a class="selector" href="servicios.php">SERVICIOS</a>
-				<a class="selector" id="select2" href="contacto.php">CONTACTO</a>
-			</ul>
-		</nav>
+    <div class="fondo">
+        <div class="textoi pull-right">
+            <p>
+            En MCI CIUDAD BLANCA Y ASOCIADOS resolvemos a su favor.</p>
+        </div>
+    </div>
+</div>
 
-		<figure class="pull-right logo">
-			<img src="../img/ammex.png" alt="AMMEX" class="img-responsive">
-		</figure>
-
-
-		<div class="tit-form1">
-			<div class=" col-md-6 tit pull-left text-right">
-				¡Entérate primero <br> de las mejores ofertas!
-			</div>
-			<div class="col-md-6 form1 pull-right">
-				<form action="#" method="post" class="form">
-            <div class="get-in-touch">
-                <h3 class="text-center">
-                   Solicita una cotización</h3>
-                <div class="form-group">
-                    <input type="text" class="form-control" id="name" placeholder="Nombre" required/>
+<section id="contact" class="content-section text-center" style="padding: 5% 0%;">
+        <div class="contact-section">
+            <div class="container">
+              <h2>CONTACTANOS</h2>
+              <p>Por favor, llena este formulario para contactarnos</p> <br>
+              <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                  <form class="form-horizontal">
+                    <div class="form-group">
+                      <label for="exampleInputName2">Nombre</label>
+                      <input type="text" class="form-control" id="exampleInputName2" placeholder="Nombre completo">
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputName2">Teléfono</label>
+                      <input type="text" class="form-control" id="exampleInputName2" placeholder="Teléfono">
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputEmail2">Correo</label>
+                      <input type="email" class="form-control" id="exampleInputEmail2" placeholder="jane.doe@example.com">
+                    </div>
+                    <div class="form-group ">
+                      <label for="exampleInputText">Comentario</label>
+                     <textarea  class="form-control" placeholder="Escribe el texto"></textarea> 
+                    </div>
+                    <button type="submit" class="btn btn-default">Enviar mensaje</button>
+                  </form>
                 </div>
-                <div class="form-group">
-                    <input type="email" class="form-control" id="Email" placeholder="Correo" required/>
-                </div>
-                <div class="form-group">
-                    <input type="text" class="form-control" id="Tel" placeholder="Teléfono" required/>
-                </div>
-                <div class="form-group">
-                    <textarea class="form-control" rows="3" placeholder="Mensaje" required></textarea>
-                </div>
-                <a href="#" class="btn btn-danger btn-sm btn-block" role="button"><i class="fas fa-sign-in-alt"></i> ENVIAR</a>
+              </div>
             </div>
-            </form>
-			</div>
-		</div>
-	</div>
-</div>
+        </div>
+      </section>
 
-<div class="mapa">
-	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.55886701894!2d-89.62201568589252!3d21.0103129860084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5676a5f0bd43db%3A0xa172771e0ff815fc!2sCalle+7A+279D%2C+Campestre%2C+97120+M%C3%A9rida%2C+Yuc.!5e0!3m2!1ses-419!2smx!4v1520986259852" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-</div>
+      <!-- <div class="container" style="padding: 5% 0%;"> -->
+	<!-- <div class="row"> -->
+        <div class="mapa">
+        	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.5615384622274!2d-89.62836948589252!3d21.010205986008486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f56741d4a0fef9b%3A0x64c3201960327dfc!2sCalle+23+64%2C+Hidalgo+de+Chuburn%C3%A1%2C+97208+M%C3%A9rida%2C+Yuc.!5e0!3m2!1ses-419!2smx!4v1521056420071" width="100%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+    	</div>
+    	
+      	<!-- <div class="col-md-4">
+    		<h2>Datos de la Empresa</h2>
+    		<address>
+    			
+    			15 Springfield Way<br>
+    			Hythe<br>
+    			Kent<br>
+    			United Kingdon<br>
+    			CT21 5SH<br>
+    			<abbr title="Phone">P:</abbr> 01234 567 890
+    		</address>
+    	</div> -->
+    <!-- </div> -->
+<!-- </div> -->
 
- <div class="container second-portion">
-	<div class="row">
-        <!-- Boxes de Acoes -->
-    	<div class="col-md-3">
-			<div class="box">							
-				<div class="icon">
-					<div class="image"><i class="fa fa-envelope" aria-hidden="true"></i></div>
-					<div class="info">
-						<h3 class="title">CORREO</h3>
-						<p>
-							<i class="fa fa-envelope" aria-hidden="true"></i> &nbsp; info@turismoammex.com
-							<br>
-							<br>
-							<i class="fa fa-globe" aria-hidden="true"></i> &nbsp; www.turismoammex.comm
-						</p>
-					
-					</div>
-				</div>
-				<div class="space"></div>
-			</div> 
-		</div>
-			
-        <div class="col-md-3">
-			<div class="box">							
-				<div class="icon">
-					<div class="image"><i class="fa fa-mobile" aria-hidden="true"></i></div>
-					<div class="info">
-						<h3 class="title">TELEFONO</h3>
-    					<p>
-							<i class="fa fa-mobile" aria-hidden="true"></i> &nbsp; PENDIENTE
-							
-						</p>
-					</div>
-				</div>
-				<div class="space"></div>
-			</div> 
-		</div>
-			
-        <div class="col-md-3">
-			<div class="box">							
-				<div class="icon">
-					<div class="image"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
-					<div class="info">
-						<h3 class="title">DIRECCION</h3>
-    					<p>
-							 <i class="fa fa-map-marker" aria-hidden="true"></i> &nbsp; C. 7-A #279-E POR 40 Y 42 COL. FRACC. DEL NORTE, MERIDA, YUCATAN.
-					</div>
-				</div>
-				<div class="space"></div>
-			</div> 
-		</div>
-
-		<div class="col-md-3">
-			<div class="box">							
-				<div class="icon">
-					<div class="image"><i class="far fa-clock" aria-hidden="true"></i></div>
-					<div class="info">
-						<h3 class="title">HORARIO</h3>
-    					<p>
-							 <i class="far fa-clock" aria-hidden="true"></i> &nbsp; Lunes a Viernes de 9 am a 6 pm
-						</p>
-					</div>
-				</div>
-				<div class="space"></div>
-			</div> 
-		</div>		    
-		
-	    
-	</div>
-</div>
 	
   
-<a class="go-top" href="#">Subir</a>
+<!-- <a class="go-top" href="#">Subir</a> -->
 <?php include 'pie.php' ?>
 <script src="../js/jquery.js"></script>
 <script src="../js/sendCORREO.js"></script>

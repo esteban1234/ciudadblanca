@@ -28,8 +28,8 @@
         <ul>
             <a class="selector" id="select" href="index.php">INICIO</a>
             <a class="selector" href="vistas/nosotros.php">NOSOTROS</a>
-            <a class="selector" href="vistas/servcios.php">SERVICIOS</a>
-            <a class="selector" href="vistas/contactp.php">CONTACTO</a>
+            <a class="selector" href="vistas/servicios.php">SERVICIOS</a>
+            <a class="selector" href="vistas/contacto.php">CONTACTO</a>
         </ul>
     </nav>
 </div>
@@ -72,11 +72,6 @@
         </div>
     </div>
 
-<!-- <div class="container" style="margin-bottom: 2%;">
-	<div class="row text-center">
-            <a href="vistas/contacto.php" class="btn btn-warning btn-outline btn-lg">CONTACTANOS</a>
-	</div>
-</div> -->
 
 
 

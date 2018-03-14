@@ -2,157 +2,93 @@
 <?php include 'encabezado2.php' ?>
 <body>
 
+  <header>
+    <div class=" container uno">
+        <p class="col-md-6"><i class="fas fa-map-marker-alt"></i> C. 23 #64 por 12 Col. Chuburna de Hidalgo, Mérida, Yucatán. CP. 97205.</p>
+        <p class="col-md-3"><i class="far fa-clock"></i> Lunes a Viernes de 9 am a 6 pm</p>
+        <p class="col-md-3"><i class="far fa-envelope"></i> info@adminciudadblanca.com</p>
+    </div>
+    <div class="container dos">
+        <p class="text-right">Redes sociales</p>
+        <p class="iconosi text-right">
+            <i class="fab fa-facebook-f"></i> &nbsp;
+            <i class="fab fa-google-plus-g"></i> &nbsp;
+            <i class="fab fa-twitter"></i> &nbsp;
+            <i class="fab fa-linkedin-in"></i>
+        </p>
+    </div>
+    <hr>
+</header>
+
+<div class="menu">
+    <figure class="logo pull-left">
+        <img src="../img/cd-blanca.png" alt="CIUDAD BLANCA" class="img-responsive">
+    </figure>
+    <nav class="pull-right">
+        <ul>
+            <a class="selector" href="../index.php">INICIO</a>
+            <a class="selector" id="select" href="nosotros.php">NOSOTROS</a>
+            <a class="selector" href="servicios.php">SERVICIOS</a>
+            <a class="selector" href="contacto.php">CONTACTO</a>
+        </ul>
+    </nav>
+</div>
+
 <div class="banner2">
-	<div class="fondo">
-		<nav class="pull-left">
-			<ul>
-				<a class="selector" href="../index.php">INICIO</a>
-				<a class="selector" id="select" href="nosotros.php">NOSOTROS</a>
-				<a class="selector" href="servicios.php">SERVICIOS</a>
-				<a class="selector" href="contacto.php">CONTACTO</a>
-			</ul>
-		</nav>
-
-		<figure class="pull-right logo">
-			<img src="../img/ammex.png" alt="AMMEX" class="img-responsive">
-		</figure>
-
-
-		<div class="tit-form1">
-			<div class=" col-md-6 tit pull-left text-right">
-				Aquí podrás encontrar los mejores paquetes y tips para tu viaje
-			</div>
-			<div class="col-md-6 form1 pull-right">
-				<form action="#" method="post" class="form">
-            <div class="get-in-touch">
-                <h3 class="text-center">
-                   Solicita una cotización</h3>
-                <div class="form-group">
-                    <input type="text" class="form-control" id="name" placeholder="Nombre" required/>
-                </div>
-                <div class="form-group">
-                    <input type="email" class="form-control" id="Email" placeholder="Correo" required/>
-                </div>
-                <div class="form-group">
-                    <input type="text" class="form-control" id="Tel" placeholder="Teléfono" required/>
-                </div>
-                <div class="form-group">
-                    <textarea class="form-control" rows="3" placeholder="Mensaje" required></textarea>
-                </div>
-                <a href="#" class="btn btn-danger btn-sm btn-block" role="button"><i class="fas fa-sign-in-alt"></i> ENVIAR</a>
-            </div>
-            </form>
-			</div>
-		</div>
-	</div>
+    <div class="fondo">
+        <div class="textoi pull-right">
+            <p>
+            Estamos siempre listos para atenderle. Trabajamos todos los asuntos que requieran. Tenemos el compromiso de estar en el momento y en lugar que usted nos necesite, preparados para defender y promover sus derechos con la ley en la mano, basados en las mejores prácticas profesionales. Nuestra experiencia y prestigio nos avalan.</p>
+            <a style="margin-top: 3%; margin-right: 5%;" href="contacto.php" class="btn btn-warning btn-outline btn-lg pull-right">CONTACTANOS</a>
+        </div>
+    </div>
 </div>
 
 <div class="section" style="padding: 5% 0%;">
       <div class="container">
         <div class="row">
-          <div class="col-md-12">
-            <h1 class="text-center">¿Por qué comprar en AMMEX?</h1>
-            <p class="text-center">Expertos en viajes</p>
+          <div class="col-md-6">
+            <h1>NOSOTROS</h1>
+            <h3>MCI CIUDAD BLANCA Y ASOCIADOS SCP</h3>
+            <p>Nuestro equipo de abogados está altamente calificado para brindarle soluciones jurídicas y asesoría personal. <br><br> Brindamos confianza, seguridad y responsabilidad, nuestra experiencia habla por nosotros, distinguiéndonos por la calidad en el servicio. Con nosotros encontrara una empresa comprometida en todo momento ya que nuestro principal objetivo es satisfacer todas las necesidades de nuestros clientes.</p>
           </div>
-        </div> <br><br>
-        <div class="row">
-          <div class="col-md-1">
-            <i class="fas fa-user-plus fa-5x" style="color: #ED6A16;"></i>
-          </div>
-          <div class="col-md-3">
-            <h3 class="text-left">Atención personalizada</h3>
-            <p class="text-left">Siempre asesoramiento personalizado por profesionales expertos en Viajes.</p>
-          </div>
-          <div class="col-md-1">
-            <i class="fas fa-thumbs-up fa-5x" style="color: #ED6A16;"></i>
-          </div>
-          <div class="col-md-3">
-            <h3 class="text-left">La mejor atención post-venta</h3>
-            <p class="text-left">Ofreciéndote la mejor atención, las mejores ofertas de viajes y los mejores precios.</p>
-          </div>
-          <div class="col-md-1">
-            <i class="fas fa-credit-card fa-5x" style="color: #ED6A16;"></i>
-          </div>
-          <div class="col-md-3">
-            <h3 class="text-left">Los mejores precios</h3>
-            <p class="text-left">Trabajamos con Todas las Tarjetas y Bancos para tus vacaciones soñadas.</p>
+          <div class="col-md-6">
+            <img src="../img/nos.jpg"
+            class="img-responsive">
           </div>
         </div>
-        
       </div>
     </div>
 
-    <div class="section" style="padding: 5% 0%; background-color: #ED6A16;">
+    <div class="section" style="padding: 5% 0%; background: #FAFAFA;">
       <div class="container">
         <div class="row">
           <div class="col-md-4">
-            <figure class="logo2">
-			<img src="../img/ammex.jpg" alt="AMMEX" class="img-responsive">
-			</figure>
-            <h2 style="color: #fff;">NOSOTROS</h2>
-            <p style="color: #fff;">AMMEX es una agencia de viajes. Una empresa que cuenta con experiencia en el ramo de turismo, especializados en viajes grupales y personalizados alrededor del mundo. Nos distingue una excelente atención al cliente, su satisfacción siempre es nuestra prioridad; por lo mismo ofrecemos servicios integrales en el exterior, sin intermediarios y siempre acompañados por un miembro de la empresa desde el inicio del viaje.</p>
+            <!-- <img src="http://pingendo.github.io/pingendo-bootstrap/assets/placeholder.png"
+            class="img-responsive"> -->
+            <h2 class="text-center">MISION</h2>
+            <p>Lograr resultados exitosos y la plena satisfacción de nuestros clientes en todos los servicios ofrecidos, tanto a nivel nacional como internacional; garantizando un servicio de calidad, expertos en la materia, confidencialidad y ética en la profesión.</p>
           </div>
           <div class="col-md-4">
-            <div class="iconos" style=" text-align: center;">
-            	<i class="fas fa-handshake fa-5x" style="color: #fff;"></i>
-            </div>
-            <h2 style="color: #fff;">MISION</h2>
-            <p style="color: #fff;">Satisfacer las necesidades de nuestros clientes a través de la prestación de un servicio profesional, eficiente y personalizado ofreciendo las mejores opciones, tarifas y horarios en: excursiones, paquetes, boletos de avión, cruceros y más.</p>
+            <!-- <img src="http://pingendo.github.io/pingendo-bootstrap/assets/placeholder.png"
+            class="img-responsive"> -->
+            <h2 class="text-center">VISION</h2>
+            <p>Brindar al cliente una solución práctica y profesional, relacionada con el problema que presenta, dentro de los parámetros legales existentes en nuestra legislación o legislaciones.</p>
           </div>
           <div class="col-md-4">
-            <div class="iconos" style=" text-align: center;">
-            	<i class="fas fa-chart-line fa-5x" style="color: #fff;"></i>
-            </div>
-            <h2 style="color: #fff;">VISION</h2>
-            <p style="color: #fff;">Ser una empresa líder, brindando al cliente una satisfacción total, asimismo seguir proporcionando un servicio de calidad y seguridad que beneficie a la empresa, pero sobre todo a los usuarios de nuestro servicio</p>
+            <!-- <img src="http://pingendo.github.io/pingendo-bootstrap/assets/placeholder.png"
+            class="img-responsive"> -->
+            <h2 class="text-center">VALORES</h2>
+            <p>Actuamos con rectitud e integridad, nos desempeñamos con exactitud, profesionalismo, lealtad, puntualidad, honestidad, tolerancia, calidad humana, pluralidad, respeto, eficacia, legalidad y una gran calidad humano; por lo tanto somos un despacho confiable.</p>
           </div>
         </div>
-      </div>
-    </div>
-
-
-    <div class="section" style="padding: 5% 0%;">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <h1 class="text-center">¡Ellos ya confiaron en nosotros!</h1>
-            <!-- <p class="text-center">Expertos en viajes</p> -->
-          </div>
-        </div> <br><br>
-        <div class="row">
-          <div class="col-md-1">
-            <i class=" fas fa-user-circle fa-5x" style="color: #ED6A16;"></i>
-          </div>
-          <div class="col-md-3">
-            <h3 class="text-left">Raul</h3>
-            <p class="text-left">Todo resultó tal como estaba planificado y detallado en el itinerario, totalmente recomendables y confiables.</p>
-          </div>
-          <div class="col-md-1">
-            <i class="fas fa-user-circle fa-5x" style="color: #ED6A16;"></i>
-          </div>
-          <div class="col-md-3">
-            <h3 class="text-left">Carlos</h3>
-            <p class="text-left">Excelente agencia, la recomiendo 100%. Todo resultó perfecto.</p>
-          </div>
-          <div class="col-md-1">
-            <i class="fas fa-user-circle fa-5x" style="color: #ED6A16;"></i>
-          </div>
-          <div class="col-md-3">
-            <h3 class="text-left">Veronica</h3>
-            <p class="text-left">Es la primera vez que viajo con esta Agencia y todo me resultó como uno espera: todo como un reloj de arena.</p>
-          </div>
-        </div>
-        
-      </div>
-    </div>
-
-    <div class="container" style="margin-bottom: 2%;">
-	<div class="row text-center">
+        <div class="row text-center" style="margin-top: 3%;">
             <a href="contacto.php" class="btn btn-warning btn-outline btn-lg">CONTACTANOS</a>
-	</div>
-</div>
+  </div>
+      </div>
+    </div>
 
-<a class="go-top" href="#">Subir</a>
+<!-- <a class="go-top" href="#">Subir</a> -->
 <?php include 'pie.php' ?>
 
 

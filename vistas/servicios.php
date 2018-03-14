@@ -2,123 +2,128 @@
 <?php include 'encabezado2.php' ?>
 <body>
 
-	<div class="banner3">
-	<div class="fondo">
-		<nav class="pull-left">
-			<ul>
-				<a class="selector" href="../index.php">INICIO</a>
-				<a class="selector" href="nosotros.php">NOSOTROS</a>
-				<a class="selector" id="select2" href="servicios.php">SERVICIOS</a>
-				<a class="selector" href="contacto.php">CONTACTO</a>
-			</ul>
-		</nav>
+	<header>
+    <div class=" container uno">
+        <p class="col-md-6"><i class="fas fa-map-marker-alt"></i> C. 23 #64 por 12 Col. Chuburna de Hidalgo, Mérida, Yucatán. CP. 97205.</p>
+        <p class="col-md-3"><i class="far fa-clock"></i> Lunes a Viernes de 9 am a 6 pm</p>
+        <p class="col-md-3"><i class="far fa-envelope"></i> info@adminciudadblanca.com</p>
+    </div>
+    <div class="container dos">
+        <p class="text-right">Redes sociales</p>
+        <p class="iconosi text-right">
+            <i class="fab fa-facebook-f"></i> &nbsp;
+            <i class="fab fa-google-plus-g"></i> &nbsp;
+            <i class="fab fa-twitter"></i> &nbsp;
+            <i class="fab fa-linkedin-in"></i>
+        </p>
+    </div>
+    <hr>
+</header>
 
-		<figure class="pull-right logo">
-			<img src="../img/ammex.png" alt="AMMEX" class="img-responsive">
-		</figure>
-
-
-		<div class="tit-form1">
-			<div class=" col-md-6 tit pull-left text-right">
-				Viajes: busque, <br> compare y <br> ahorre
-			</div>
-			<div class="col-md-6 form1 pull-right">
-				<form action="#" method="post" class="form">
-            <div class="get-in-touch">
-                <h3 class="text-center">
-                   Solicita una cotización</h3>
-                <div class="form-group">
-                    <input type="text" class="form-control" id="name" placeholder="Nombre" required/>
-                </div>
-                <div class="form-group">
-                    <input type="email" class="form-control" id="Email" placeholder="Correo" required/>
-                </div>
-                <div class="form-group">
-                    <input type="text" class="form-control" id="Tel" placeholder="Teléfono" required/>
-                </div>
-                <div class="form-group">
-                    <textarea class="form-control" rows="3" placeholder="Mensaje" required></textarea>
-                </div>
-                <a href="#" class="btn btn-danger btn-sm btn-block" role="button"><i class="fas fa-sign-in-alt"></i> ENVIAR</a>
-            </div>
-            </form>
-			</div>
-		</div>
-	</div>
+<div class="menu">
+    <figure class="logo pull-left">
+        <img src="../img/cd-blanca.png" alt="CIUDAD BLANCA" class="img-responsive">
+    </figure>
+    <nav class="pull-right">
+        <ul>
+            <a class="selector" href="../index.php">INICIO</a>
+            <a class="selector" href="nosotros.php">NOSOTROS</a>
+            <a class="selector" id="select" href="servicios.php">SERVICIOS</a>
+            <a class="selector" href="contacto.php">CONTACTO</a>
+        </ul>
+    </nav>
 </div>
- 
- <div class="container" style="padding: 5% 0%;">
-        <div class="row">
-        <div class="gallery col-lg-12 col-md-12 col-sm-12 col-xs-12">
-            <h1 class="gallery-title">DESTINOS</h1>
-        </div>
 
-        <div align="center">
-            <button class="btn btn-default filter-button" data-filter="all">Todos</button>
-            <button class="btn btn-default filter-button" data-filter="hdpe">México</button>
-            <button class="btn btn-default filter-button" data-filter="sprinkle">Norte America</button>
-            <button class="btn btn-default filter-button" data-filter="spray">Europa</button>
-            <button class="btn btn-default filter-button" data-filter="irrigation">Latino America</button>
-        </div>
-        <br/>
-
-
-
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
-                <img src="../img/aguazaul01.jpg" class="img-responsive">
-            </div>
-
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
-                <img src="../img/norteamerica0101.jpg" class="img-responsive">
-            </div>
-
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
-                <img src="../img/monterrey01.jpg" class="img-responsive">
-            </div>
-
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation">
-                <img src="../img/latino0101.jpg" class="img-responsive">
-            </div>
-
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray">
-                <img src="../img/europa0101.jpg" class="img-responsive">
-            </div>
-
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation">
-                <img src="../img/latino0202.jpg" class="img-responsive">
-            </div>
-
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray">
-                <img src="../img/europa0202.jpg" class="img-responsive">
-            </div>
-
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation">
-                <img src="../img/latino0303.jpg" class="img-responsive">
-            </div>
-
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation">
-                <img src="../img/latino0404.jpg" class="img-responsive">
-            </div>
-
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
-                <img src="../img/toluca01.jpg" class="img-responsive">
-            </div>
-
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray">
-                <img src="../img/europa0303.jpg" class="img-responsive">
-            </div>
-
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
-                <img src="../img/norteamerica0202.jpg" class="img-responsive">
-            </div>
+<div class="banner3">
+    <div class="fondo">
+        <div class="textoi pull-right">
+            <p>
+            Nuestro despacho de abogados le brinda las soluciones jurídicas que usted busca.</p>
+            <a style="margin-top: 3%; margin-right: 5%;" href="contacto.php" class="btn btn-warning btn-outline btn-lg pull-right">CONTACTANOS</a>
         </div>
     </div>
-</section>
+</div>
 
+<div class="section" style="padding: 5% 0%;">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h1 class="text-center">SERVICIOS</h1>
+            <!-- <p class="text-center">We are a group of skilled individuals.</p> -->
+          </div> 
+        </div><br><br>
+        <div class="row">
+
+          <div class="col-md-4">
+            <h3 class="text-center">Asuntos Penales</h3>
+            <p class="text-center">Homicidio, violación, fraudes, despojos, delitos contra la salud, transportacion y estupefaccion de estupefacientes.</p>
+          </div>
+
+          <div class="col-md-4">
+            <h3 class="text-center">Juicios de Amparo</h3>
+            <p class="text-center">Todas las materias.</p>
+          </div>
+
+          <div class="col-md-4">
+            <h3 class="text-center">Controversias constitucionales</h3>
+            <p class="text-center">Litigadas en la Suprema Corte de Justicia de la Nación.</p>
+          </div>
+        </div> <br>
+        <div class="row">
+          <div class="col-md-4">
+            <h3 class="text-center">Acciones de inconstitucionalidad</h3>
+            <p class="text-center">Litigadas en la Suprema Corte de Justicia de la Nación.</p>
+          </div>
+
+          <div class="col-md-4">
+            <h3 class="text-center">Juicios Civiles</h3>
+            <p class="text-center">Arrendamientos, contratos, escrituras, reivindicatorios, interdictos, usucapión, etc.</p>
+          </div>
+
+          <div class="col-md-4">
+            <h3 class="text-center">Juicios Familiares</h3>
+            <p class="text-center">Homicidio, violación, fraudes, despojos, delitos contra la salud, transportacion y estupefaccion de estupefacientes.</p>
+          </div>
+        </div><br>
+        <div class="row">
+          <div class="col-md-4">
+            <h3 class="text-center">Juicios Agrarios</h3>
+            <p class="text-center">Restitución de tierras, cobro de indemnizaciones, decretos expropiatorios, reversión de tierras.</p>
+          </div>
+
+          <div class="col-md-4">
+            <h3 class="text-center">Asesoría Jurídica en derecho internacional público y privado</h3>
+            <p class="text-center">Contratos y arbitrajes.</p>
+          </div>
+
+          <div class="col-md-4">
+            <h3 class="text-center">Juicios Mercantiles</h3>
+            <p class="text-center">Pagarés, cheques, créditos vencidos.</p>
+          </div>
+        </div><br>
+        <div class="row">
+          <div class="col-md-4 col-md-offset-2">
+            <h3 class="text-center">Juicios Laborales</h3>
+            <p class="text-center">Despidos injustificados, para procesales o voluntarios. rescisión de la relación laboral, huelgas, contratos colectivos, contrato ley, reglamento interior del trabajo etc.</p>
+          </div>
+
+          <div class="col-md-4">
+            <h3 class="text-center">Asesoría Jurídica en asuntos Fiscales</h3>
+            <p class="text-center">Nulidad, anulación, revisión fiscal, revocación, etc.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container" style="margin-bottom: 3%;">
+        <div class="row text-center" style="margin-top: 2%;">
+            <a href="contacto.php" class="btn btn-warning btn-outline btn-lg">CONTACTANOS</a>
+    </div>
+    </div>
 	
 	
 
-<a class="go-top" href="#">Subir</a>
+<!-- <a class="go-top" href="#">Subir</a> -->
 <?php include 'pie.php' ?>
 <script src="../js/jquery.js"></script>
 <script src="../js/arriba.js"></script>
