@@ -3,11 +3,7 @@
 <body>
 
 <header>
-    <div class=" container uno">
-        <p class="col-md-6"><i class="fas fa-map-marker-alt"></i> C. 23 #64 por 12 Col. Chuburna de Hidalgo, Mérida, Yucatán. CP. 97205.</p>
-        <p class="col-md-3"><i class="far fa-clock"></i> Lunes a Viernes de 9 am a 6 pm</p>
-        <p class="col-md-3"><i class="far fa-envelope"></i> info@adminciudadblanca.com</p>
-    </div>
+    
     <div class="container dos">
         <p class="text-right">Redes sociales</p>
         <p class="iconosi text-right">
@@ -80,6 +76,13 @@
         <div class="mapa">
         	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.5615384622274!2d-89.62836948589252!3d21.010205986008486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f56741d4a0fef9b%3A0x64c3201960327dfc!2sCalle+23+64%2C+Hidalgo+de+Chuburn%C3%A1%2C+97208+M%C3%A9rida%2C+Yuc.!5e0!3m2!1ses-419!2smx!4v1521056420071" width="100%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
     	</div>
+
+      <div class=" container uno">
+        <p class="col-md-4 text-center"><i class="fas fa-map-marker-alt"></i> C. 23 #64 por 12 Col. Chuburna de Hidalgo, Mérida, Yucatán. CP. 97205.</p>
+        <p class="col-md-3"><i class="far fa-clock"></i> Lunes a Viernes de 9 am a 6 pm</p>
+        <p class="col-md-3"><i class="far fa-envelope"></i> info@adminciudadblanca.com</p>
+        <p class="col-md-2"><i class="fas fa-phone-volume"></i> PENDIENTE</p>
+    </div>
     	
       	<!-- <div class="col-md-4">
     		<h2>Datos de la Empresa</h2>

@@ -3,11 +3,11 @@
 <body>
 
 	<header>
-    <div class=" container uno">
+    <!-- <div class=" container uno">
         <p class="col-md-6"><i class="fas fa-map-marker-alt"></i> C. 23 #64 por 12 Col. Chuburna de Hidalgo, Mérida, Yucatán. CP. 97205.</p>
         <p class="col-md-3"><i class="far fa-clock"></i> Lunes a Viernes de 9 am a 6 pm</p>
         <p class="col-md-3"><i class="far fa-envelope"></i> info@adminciudadblanca.com</p>
-    </div>
+    </div> -->
     <div class="container dos">
         <p class="text-right">Redes sociales</p>
         <p class="iconosi text-right">

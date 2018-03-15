@@ -31,11 +31,14 @@ header{
     overflow: hidden;
 }
 .uno{
-    padding: 1% 0%;
+    padding: 3% 0%;
     overflow: hidden;
 }
 .uno p{
     color: gray;
+}
+.dos{
+    padding-top: 3%;
 }
 .dos p{
     color: gray;
