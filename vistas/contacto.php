@@ -5,7 +5,7 @@
 <header>
     
     <div class="container dos">
-        <p class="text-right">Redes sociales</p>
+        <p class="text-right tit-rs">Redes sociales</p>
         <p class="iconosi text-right">
             <i class="fab fa-facebook-f"></i> &nbsp;
             <i class="fab fa-google-plus-g"></i> &nbsp;
@@ -28,6 +28,9 @@
             <a class="selector" id="select" href="contacto.php">CONTACTO</a>
         </ul>
     </nav>
+     <div class="op-menu">
+        <i class="fa fa-bars fa-1x i-menu" aria-hidden="true"></i>
+    </div>
 </div>
 
 <div class="banner4">
@@ -42,28 +45,29 @@
 <section id="contact" class="content-section text-center" style="padding: 5% 0%;">
         <div class="contact-section">
             <div class="container">
-              <h2>CONTACTANOS</h2>
+              <h2 class="tit-c">CONTACTANOS</h2>
               <p>Por favor, llena este formulario para contactarnos</p> <br>
               <div class="row">
                 <div class="col-md-8 col-md-offset-2">
-                  <form class="form-horizontal">
+                  <form class="form-horizontal" onSubmit="return false">
                     <div class="form-group">
                       <label for="exampleInputName2">Nombre</label>
-                      <input type="text" class="form-control" id="exampleInputName2" placeholder="Nombre completo">
+                      <input type="text" class="form-control" id="txtNOMBRE" placeholder="Nombre completo">
                     </div>
                     <div class="form-group">
                       <label for="exampleInputName2">Teléfono</label>
-                      <input type="text" class="form-control" id="exampleInputName2" placeholder="Teléfono">
+                      <input type="text" class="form-control" id="txtTELEFONO" placeholder="Teléfono">
                     </div>
                     <div class="form-group">
                       <label for="exampleInputEmail2">Correo</label>
-                      <input type="email" class="form-control" id="exampleInputEmail2" placeholder="jane.doe@example.com">
+                      <input type="email" class="form-control" id="txtCORREO" placeholder="jane.doe@example.com">
                     </div>
                     <div class="form-group ">
                       <label for="exampleInputText">Comentario</label>
-                     <textarea  class="form-control" placeholder="Escribe el texto"></textarea> 
+                     <textarea  id="txtCOMENTARIO" class="form-control" placeholder="Escribe el texto"></textarea> 
                     </div>
-                    <button type="submit" class="btn btn-default">Enviar mensaje</button>
+                    <div id="_AJAX_PRE_"></div><br>
+                    <button type="submit" class="btn btn-default" onclick="sendCORREO()">Enviar mensaje</button>
                   </form>
                 </div>
               </div>
@@ -78,10 +82,10 @@
     	</div>
 
       <div class=" container uno">
-        <p class="col-md-4 text-center"><i class="fas fa-map-marker-alt"></i> C. 23 #64 por 12 Col. Chuburna de Hidalgo, Mérida, Yucatán. CP. 97205.</p>
-        <p class="col-md-3"><i class="far fa-clock"></i> Lunes a Viernes de 9 am a 6 pm</p>
-        <p class="col-md-3"><i class="far fa-envelope"></i> info@adminciudadblanca.com</p>
-        <p class="col-md-2"><i class="fas fa-phone-volume"></i> PENDIENTE</p>
+        <p class="col-xs-12 col-md-4 text-center"><i class="fas fa-map-marker-alt"></i> C. 23 #64 por 12 Col. Chuburna de Hidalgo, Mérida, Yucatán. CP. 97205.</p>
+        <p class="col-xs-12 col-md-3"><i class="far fa-clock"></i> Lunes a Viernes de 9 am a 6 pm</p>
+        <p class="col-xs-12 col-md-3"><i class="far fa-envelope"></i> info@adminciudadblanca.com</p>
+        <p class="col-xs-12 col-md-2"><i class="fas fa-phone-volume"></i> PENDIENTE</p>
     </div>
     	
       	<!-- <div class="col-md-4">
@@ -109,6 +113,6 @@
 <script src="../js/arriba.js"></script>
 <script src="../js/funciondthc.js"></script>
 <script src="../js/menu.js"></script>
-<!-- <script src="../js/sendCORREO.js"></script> -->
+<script src="../js/sendCORREO.js"></script>
 </body>
 </html>

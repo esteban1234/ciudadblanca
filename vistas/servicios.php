@@ -9,7 +9,7 @@
         <p class="col-md-3"><i class="far fa-envelope"></i> info@adminciudadblanca.com</p>
     </div> -->
     <div class="container dos">
-        <p class="text-right">Redes sociales</p>
+        <p class="text-right tit-rs">Redes sociales</p>
         <p class="iconosi text-right">
             <i class="fab fa-facebook-f"></i> &nbsp;
             <i class="fab fa-google-plus-g"></i> &nbsp;
@@ -32,6 +32,9 @@
             <a class="selector" href="contacto.php">CONTACTO</a>
         </ul>
     </nav>
+    <div class="op-menu">
+        <i class="fa fa-bars fa-1x i-menu" aria-hidden="true"></i>
+    </div>
 </div>
 
 <div class="banner3">
@@ -39,7 +42,7 @@
         <div class="textoi pull-right">
             <p>
             Nuestro despacho de abogados le brinda las soluciones jurídicas que usted busca.</p>
-            <a style="margin-top: 3%; margin-right: 5%;" href="contacto.php" class="btn btn-warning btn-outline btn-lg pull-right">CONTACTANOS</a>
+            <a style="margin-top: 3%; margin-right: 5%;" href="contacto.php" class="btn btn-warning btn-outline btn-lg pull-right btn-contacto">CONTACTANOS</a>
         </div>
     </div>
 </div>
@@ -48,67 +51,67 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <h1 class="text-center">SERVICIOS</h1>
+            <h1 class="text-center tit-ser">SERVICIOS</h1>
             <!-- <p class="text-center">We are a group of skilled individuals.</p> -->
           </div> 
-        </div><br><br>
-        <div class="row">
+        </div><br class="delete-br"><br class="delete-br">
+        <div class="row mod-row">
 
           <div class="col-md-4">
-            <h3 class="text-center">Asuntos Penales</h3>
+            <h3 class="text-center tit-tot">Asuntos Penales</h3>
             <p class="text-center">Homicidio, violación, fraudes, despojos, delitos contra la salud, transportacion y estupefaccion de estupefacientes.</p>
           </div>
 
           <div class="col-md-4">
-            <h3 class="text-center">Juicios de Amparo</h3>
+            <h3 class="text-center tit-tot">Juicios de Amparo</h3>
             <p class="text-center">Todas las materias.</p>
           </div>
 
           <div class="col-md-4">
-            <h3 class="text-center">Controversias constitucionales</h3>
+            <h3 class="text-center tit-tot">Controversias constitucionales</h3>
             <p class="text-center">Litigadas en la Suprema Corte de Justicia de la Nación.</p>
           </div>
-        </div> <br>
-        <div class="row">
+        </div> <br class="delete-br">
+        <div class="row mod-row">
           <div class="col-md-4">
-            <h3 class="text-center">Acciones de inconstitucionalidad</h3>
+            <h3 class="text-center tit-tot">Acciones de inconstitucionalidad</h3>
             <p class="text-center">Litigadas en la Suprema Corte de Justicia de la Nación.</p>
           </div>
 
           <div class="col-md-4">
-            <h3 class="text-center">Juicios Civiles</h3>
+            <h3 class="text-center tit-tot">Juicios Civiles</h3>
             <p class="text-center">Arrendamientos, contratos, escrituras, reivindicatorios, interdictos, usucapión, etc.</p>
           </div>
 
           <div class="col-md-4">
-            <h3 class="text-center">Juicios Familiares</h3>
+            <h3 class="text-center tit-tot">Juicios Familiares</h3>
             <p class="text-center">Homicidio, violación, fraudes, despojos, delitos contra la salud, transportacion y estupefaccion de estupefacientes.</p>
           </div>
-        </div><br>
-        <div class="row">
+        </div><br class="delete-br">
+        <div class="row mod-row">
           <div class="col-md-4">
-            <h3 class="text-center">Juicios Agrarios</h3>
+            <h3 class="text-center tit-tot">Juicios Agrarios</h3>
             <p class="text-center">Restitución de tierras, cobro de indemnizaciones, decretos expropiatorios, reversión de tierras.</p>
           </div>
 
           <div class="col-md-4">
-            <h3 class="text-center">Asesoría Jurídica en derecho internacional público y privado</h3>
+            <h3 class="text-center tit-tot">Asesoría Jurídica en derecho internacional público y privado</h3>
             <p class="text-center">Contratos y arbitrajes.</p>
           </div>
 
           <div class="col-md-4">
-            <h3 class="text-center">Juicios Mercantiles</h3>
+            <h3 class="text-center tit-tot">Juicios Mercantiles</h3>
             <p class="text-center">Pagarés, cheques, créditos vencidos.</p>
           </div>
-        </div><br>
+        </div><br class="delete-br">
         <div class="row">
           <div class="col-md-4 col-md-offset-2">
-            <h3 class="text-center">Juicios Laborales</h3>
+            <h3 class="text-center tit-tot">Juicios Laborales</h3>
             <p class="text-center">Despidos injustificados, para procesales o voluntarios. rescisión de la relación laboral, huelgas, contratos colectivos, contrato ley, reglamento interior del trabajo etc.</p>
           </div>
 
           <div class="col-md-4">
-            <h3 class="text-center">Asesoría Jurídica en asuntos Fiscales</h3>
+            <h3 class="text-center tit-tot">Asesoría Jurídica en asuntos Fiscales</h3>
             <p class="text-center">Nulidad, anulación, revisión fiscal, revocación, etc.</p>
           </div>
         </div>

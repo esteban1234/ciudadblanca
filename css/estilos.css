@@ -26,6 +26,11 @@ a.go-top:hover {
     background-color: black;
 }
 /*----------------INDEX-----------------*/
+
+.op-menu{
+    display: none;
+}
+
 header{
     width: 100%;
     overflow: hidden;

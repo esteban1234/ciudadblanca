@@ -3,13 +3,8 @@
 <body>
 
 <header>
-    <!-- <div class=" container uno">
-        <p class="col-md-6"><i class="fas fa-map-marker-alt"></i> C. 23 #64 por 12 Col. Chuburna de Hidalgo, Mérida, Yucatán. CP. 97205.</p>
-        <p class="col-md-3"><i class="far fa-clock"></i> Lunes a Viernes de 9 am a 6 pm</p>
-        <p class="col-md-3"><i class="far fa-envelope"></i> info@adminciudadblanca.com</p>
-    </div> -->
     <div class="container dos">
-        <p class="text-right">Redes sociales</p>
+        <p class="text-right tit-rs">Redes sociales</p>
         <p class="iconosi text-right">
             <i class="fab fa-facebook-f"></i> &nbsp;
             <i class="fab fa-google-plus-g"></i> &nbsp;
@@ -32,6 +27,9 @@
             <a class="selector" href="vistas/contacto.php">CONTACTO</a>
         </ul>
     </nav>
+    <div class="op-menu">
+        <i class="fa fa-bars fa-1x i-menu" aria-hidden="true"></i>
+    </div>
 </div>
 
 <div class="banner">
@@ -39,7 +37,7 @@
         <div class="textoi pull-right">
             <p>
             Si tienes un problema, hablar y ser escuchado no te costará nada. La primera consulta es gratuita. Con una experiencia, ofrecemos nuestros servicios en beneficio de personas en situación de vulnerabilidad.</p>
-            <a style="margin-top: 3%; margin-right: 5%;" href="vistas/contacto.php" class="btn btn-warning btn-outline btn-lg pull-right">CONTACTANOS</a>
+            <a style="margin-top: 3%; margin-right: 5%;" href="vistas/contacto.php" class="btn btn-warning btn-outline btn-lg pull-right btn-contacto">CONTACTANOS</a>
         </div>
     </div>
 </div>
@@ -47,16 +45,14 @@
 <div class="section" style="padding: 5% 0%;">
       <div class="container">
         <div class="row">
-          <div class="col-md-6">
-            <img src="img/servi.jpg"
-            class="img-responsive">
+          <div class="col-xs-12 col-sm-3 col-md-6 cont-img">
+            <img src="img/servi.jpg" class="img-responsive">
           </div>
-          <div class="col-md-6">
-            <h1>Servicios</h1>
-            <!-- <h3>A subtitle</h3> -->
-            <p>Ofrecemos asesoría legal integral, solucionamos y prevenimos los conflictos de nuestros clientes, mediante un servicio eficiente, responsable, honesto, discreto y sobre todo ético. <br><br>
+          <div class="col-xs-12 col-sm-9 col-md-6">
+            <h1 class="tit-s">Servicios</h1>
+            <p class="subtit-s">Ofrecemos asesoría legal integral, solucionamos y prevenimos los conflictos de nuestros clientes, mediante un servicio eficiente, responsable, honesto, discreto y sobre todo ético. <br><br>
             Realice una consulta jurìdica en lìnea adjuntando los documentos relativos y reciba respuesta en 24 horas*.</p>
-            <a style="margin-top: 3%; margin-right: 5%;" href="vistas/contacto.php" class="btn btn-warning btn-outline btn-lg pull-right">CONTACTANOS</a>
+            <a style="margin-top: 3%; margin-right: 5%;" href="vistas/contacto.php" class="btn btn-warning btn-outline btn-lg pull-right btn-contacto">CONTACTANOS</a>
           </div>
         </div>
       </div>
@@ -67,7 +63,7 @@
             <p class="tit">¿Requieres Asesoría Legal?</p>
             <p class="subtit">Llámanos hoy mismo para agendar una consulta y discutiremos todos los detalles de tu caso. Facilitandonos toda la información podremos ofrecerte la mejor solución.</p>
             <div class="row text-center" style="margin-top: 2%;">
-            <a href="vistas/servicios.php" class="btn btn-warning btn-outline btn-lg">SERVICIOS</a>
+            <a href="vistas/servicios.php" class="btn btn-warning btn-outline btn-lg btn-contacto">SERVICIOS</a>
     </div>
         </div>
     </div>
